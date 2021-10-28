@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+body {
+    background-color: black;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: honeydew;
+}
+
+h2{
+    color: goldenrod;
+}
+
+p{
+    color:whitesmoke;
+}
+
+a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+    background-color: gray;
+    padding: 5px;
+}
+
+a :hover {
+    background-color: gold;
+    padding: 5px;
+}
+
+.media-picture {
+    background-image: url(../images/01-avengers-2012.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 500px;
+    width: 100%;
+}
+
+.review-score {
+    margin: 0.5rem;
+    padding: 10px;
+    background-color: gold;
+    font-size: 2.1rem;
+    
+}
+

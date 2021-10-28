@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp%27');
+
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    background-image: url('../../images/parque.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:500px ;
+}
+

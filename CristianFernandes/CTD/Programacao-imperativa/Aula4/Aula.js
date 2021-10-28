@@ -9,7 +9,7 @@ x = 5; // Atribui outro valor a variavel
 h = 78;
 
 let mynome = "Cristian"
-let S\\\\\\\plano = true; //booleano
+let Splano = true; //booleano
 
  let soma = h + x;
  let  sub = h - x;

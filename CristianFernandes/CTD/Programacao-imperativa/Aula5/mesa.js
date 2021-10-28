@@ -91,5 +91,11 @@ function type(value){
 console.log(type(30));
 console.log(type("hello"));
 
+
 // 9- Crie uma função pela qual passamos o raio de um círculo e ela retorna a circunferência.
 
+function circunferencia(raio) {
+    return 2 * Math.PI * raio
+}
+
+console.log(circunferencia (10));
