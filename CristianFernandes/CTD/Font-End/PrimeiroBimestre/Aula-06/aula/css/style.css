@@ -8,7 +8,7 @@ h1{
 }
 
 article {
-    background-image: url('../../images/parque.jpg');
+    background-image: url('../images/parque.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;

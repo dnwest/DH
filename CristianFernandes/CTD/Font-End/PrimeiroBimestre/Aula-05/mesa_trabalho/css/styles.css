@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(223, 215, 185);
+    background-image: linear-gradient(to bottom right, rgb(223, 215, 185), rgb(245, 222, 149));
     color: rgb(51, 51, 51);
 }
 
@@ -7,9 +7,13 @@ h1 {
     color: #0d1b97;
 }
 
+a {
+    color: white;
+}
+
 .job-title {
-    background: #1726ad;
-    color: #898dbe;
+    background-image: linear-gradient(to bottom right, rgb(156, 153, 153), #333333);
+    color: #ffffff;
 }
 
 #high {
@@ -17,6 +21,6 @@ h1 {
 }
 
 ul {
-    background: #333333;
+    background-image: linear-gradient(to bottom right, rgb(88, 84, 84), #333333);
     color: rgb(223, 215, 185);
 }
