@@ -1,0 +1,24 @@
+div {
+background-color: aqua;
+width: 50%;
+display: block;
+padding: 24px;
+box-sizing: content-box;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    margin: 10px auto;
+    display: inline;
+}
+
+h1{
+    margin: 0;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50%;
+}

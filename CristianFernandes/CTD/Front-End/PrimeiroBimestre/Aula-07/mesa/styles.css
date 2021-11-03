@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    color: blanchedalmond;
+    background-image: url(./banner.jpg);
+    width: 100%;
+    height: 400px;
+    padding: 110px;
+    text-align: center;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
