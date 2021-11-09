@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    height: 2000px;
+}
+
+header{
+    width: 100%;
+    background-color: seagreen;
+    padding: 12px 32px;
+    position: fixed;
+    z-index: 100;
+}
+
+.square{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 12px;
+}
+
+.first-square{
+    background-color: burlywood;
+    position: absolute;
+    right: 0;
+}
+
+.second-square{
+    background-color: crimson;
+    position: relative;
+}
+
+.third-square{
+    background-color: skyblue;
+    position: fixed;
+}
