@@ -1,65 +1,84 @@
+/* 1 ͦ Checkpoint de Programação Imperativa!
+Olá, você foi contratado para executar este projeto. É importante que você analise, entenda o pedido do cliente e desenvolva conforme solicitado. Veja abaixo os requisitos do projeto:
 
-function pipoca(temp){
+- Precisamos desenvolver um menu para um microondas super veloz, onde teremos 5 opções de comida com seus respectivos tempos pré-definidos. 
 
-if(temp >= 21 && temp < 30){
-    console.log("Comida queimou!")
-}else if(temp < 10){
-    console.log("Tempo insuficiente!")
-}else if(temp > 30){
-    console.log("kabumm")
-}else
-console.log("Prato pronto, bom apetite!!!")
-}
+       1 - Pipoca – 10 segundos (padrão);
+      2 - Macarrão – 8 segundos (padrão);
+       3 - Carne – 15 segundos (padrão);
+      4 - Feijão – 12 segundos (padrão);
+       5 - Brigadeiro – 8 segundos (padrão); 
 
-function macarrao(temp){
+- O usuário poderá alterar o tempo padrão, aumentando ou diminuindo de acordo com sua vontade. Se o tempo informado for maior que 2x o necessário, exibir mensagem que a comida queimou.
+- Se o tempo for menor que o padrão, exibir a mensagem: "tempo insuficiente"; 
+- Opções não listadas no menu, devem exibir uma mensagem de erro: "Prato inexistente";
+- Se o tempo for 3x maior que o necessário para o prato, o microondas deve exibir a mensagem: “kabumm”;
+- No final de cada tarefa, o microondas deverá exibir a mensagem: "Prato pronto, bom apetite!!!".
+*/
 
-    if(temp >= 16 && temp < 24){
-        console.log("Comida queimou!")
-    }else if(temp < 8){
-        console.log("Tempo insuficiente!")
-    }else if(temp > 24){
-        console.log("kabumm")
-    }else
-    console.log("Prato pronto, bom apetite!!!")
-    }
-
-    function carne(temp){
-
-        if(temp >= 31 && temp < 45){
-            console.log("Comida queimou!")
-        }else if(temp < 15){
-            console.log("Tempo insuficiente!")
-        }else if(temp > 45){
-            console.log("kabumm")
-        }else
-        console.log("Prato pronto, bom apetite!!!")
-        }
-
-        function feijao(temp){
-
-            if(temp >= 25 && temp < 35){
-                console.log("Comida queimou!")
-            }else if(temp < 12){
-                console.log("Tempo insuficiente!")
-            }else if(temp > 36){
-                console.log("kabumm")
-            }else
-            console.log("Prato pronto, bom apetite!!!")
+function superMicroondas(prato, tempoDigitado) {
+    switch (prato) {
+        case 2: case 5:
+            tempoPadrao = 8
+            tempo = tempoPadrao * tempoDigitado
+            if (tempo < tempoPadrao) {
+                console.log('Tempo insuficiente!');
+            } else if (tempo >= tempoPadrao * 3) {
+                console.log('KABUMM!!');
+            } else if (tempo >= tempoPadrao * 2) {
+                console.log('A comida queimou!');
+            } else {
+                console.log('Prato pronto!');
             }
-
-          function brigadeiro(temp){
-
-                if(temp >= 17 && temp < 24){
-                    console.log("Comida queimou!")
-                }else if(temp < 8){
-                    console.log("Tempo insuficiente!")
-                }else if(temp > 24){
-                    console.log("kabumm")
-                }else
-                console.log("Prato pronto, bom apetite!!!")
-                }       
-pipoca(9)
-macarrao(20)
-carne(18)
-feijao(60)
-brigadeiro(10)
+            break;
+        case 1:
+            tempoPadrao = 10
+            tempo = tempoPadrao * tempoDigitado
+            if (tempo < tempoPadrao) {
+                console.log('Tempo insuficiente!');
+            } else if (tempo >= tempoPadrao * 3) {
+                console.log('KABUMM!!');
+            } else if (tempo >= tempoPadrao * 2) {
+                console.log('A comida queimou!');
+            } else {
+                console.log('Prato pronto!');
+            }
+            break;
+        case 3:
+            tempoPadrao = 15
+            tempo = tempoPadrao * tempoDigitado
+            if (tempo < tempoPadrao) {
+                console.log('Tempo insuficiente!');
+            } else if (tempo >= tempoPadrao * 3) {
+                console.log('KABUMM!!');
+            } else if (tempo >= tempoPadrao * 2) {
+                console.log('A comida queimou!');
+            } else {
+                console.log('Prato pronto!');
+            }
+            break;
+        case 4:
+            tempoPadrao = 12
+            tempo = tempoPadrao * tempoDigitado
+            if (tempo < tempoPadrao) {
+                console.log('Tempo insuficiente!');
+            } else if (tempo >= tempoPadrao * 3) {
+                console.log('KABUMM!!');
+            } else if (tempo >= tempoPadrao * 2) {
+                console.log('A comida queimou!');
+            } else {
+                console.log('Prato pronto!');
+            }
+            break;
+        default:
+            console.log('Prato inexistente!');
+            break;
+    }
+}
+// Testes
+superMicroondas(1, 4);
+superMicroondas(2, 2);
+superMicroondas(3, 3);
+superMicroondas(4, 1);
+superMicroondas(5, 2);
+superMicroondas(6, 10);
