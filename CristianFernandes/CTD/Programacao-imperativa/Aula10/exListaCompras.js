@@ -29,6 +29,10 @@ listaCompras.push("Macarrão");
 console.log(listaCompras);
 
 //SHIFT
-
+console.log(listaCompras.shift());
 
 //Unshift
+console.log(listaCompras.unshift("Picanha"));
+
+//Verificando
+console.log(listaCompras);
