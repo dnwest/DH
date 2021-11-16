@@ -49,3 +49,12 @@ button{
     border: none;
 
 }
+
+.logoM{
+    background-image: url("empresa.png");
+    background-size: 100%;
+    width: 120px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
