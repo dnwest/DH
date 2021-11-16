@@ -39,6 +39,18 @@ header ul{
     position: fixed;
 }
 
+button{
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -20px;
+    width: 130px;
+    height: 40px;
+    border-radius: 6px;
+    border: 10;
+    background-color: rgb(184, 43, 43);
+}
+
 .image{
     background-image: url("img-black.png");
     background-position: center;
@@ -50,7 +62,7 @@ header ul{
 
 .produto{
     background-color: chartreuse;
-    width: 250px;
+    width: 240px;
     height: 350px;
     margin: 10px;
     position: relative;
@@ -58,6 +70,6 @@ header ul{
 }
 
 .produtos{
-    width: 100%;
-    margin: 0 auto;
+   text-align: center;
 }
+
