@@ -13,12 +13,6 @@ a:hover{
     color: burlywood;
 }
 
-    /*
-    Para centralizar 
-    margin: 0 auto;
-    display: block;
-    */
-
 body{
    background-color: slategrey;
 }    
@@ -41,14 +35,30 @@ header ul{
 
 button{
     color: whitesmoke;
-    position: absolute;
-    margin-top: 300px;
-    margin-left: -20px;
+    position: relative;
     width: 130px;
     height: 40px;
     border-radius: 6px;
     border: 10;
     background-color: rgb(184, 43, 43);
+    margin-top: 300px;
+    cursor: pointer;
+}
+
+main{
+    text-align: center;
+}
+
+i{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 50px;
 }
 
 .image{
@@ -61,15 +71,51 @@ button{
 }
 
 .produto{
-    background-color: chartreuse;
-    width: 240px;
+    background-color: rgba(88, 88, 86, 0.603);
+    width: 250px;
     height: 350px;
     margin: 10px;
     position: relative;
     display: inline-block;
+    margin: 10px;
 }
 
-.produtos{
-   text-align: center;
+.produto1{
+    background-image: url(https://http2.mlstatic.com/D_Q_NP_2X_962100-MLA42790816261_072020-P.webp);
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    margin: 5px;
+}
+.produto2{
+    background-image: url(https://http2.mlstatic.com/D_Q_NP_2X_777984-MLB47518206348_092021-P.webp);
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    margin: 5px;
+}
+.produto3{
+    background-image: url(https://http2.mlstatic.com/D_Q_NP_2X_880349-MLB48112327095_112021-P.webp);
+    background-position: center;
+    background-size: 100%;
+    position: absolute;
+    width: 240px;
+    height: 280px;
+    margin: 5px;
 }
 
+.material-icons{
+    padding: 10px;
+    display: block;
+}
+
+.contato{
+    display: block;
+    text-align: right;
+    width: 100%;
+    height: auto;
+}
