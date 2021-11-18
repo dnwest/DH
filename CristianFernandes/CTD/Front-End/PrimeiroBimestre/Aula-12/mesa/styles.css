@@ -9,8 +9,22 @@
     font-family:'Open Sans', sans-serif;
 }
 
+.main-menu li{
+    display: inline;
+    padding: 10px;
+}
+
+.main-menu li:nth-child(even) {
+
+    background-color: blueviolet;
+    color: cornsilk;
+    border-radius: 6px;
+
+}
+
 body{
     padding: 32px;
+    background-color: rgba(137, 43, 226, 0.11);
 }
 
 h1{
@@ -20,7 +34,7 @@ h1{
 }
 
 p{
-    padding: 30px;
+    padding: 10px;
 }
 
 p::first-line{
@@ -28,9 +42,31 @@ p::first-line{
     background-color: blueviolet;
 }
 
+p::first-letter{
+    color: black;
+    font-size: 3rem;
+    font-style: oblique;
+}
+
+ol{
+    margin-left: 40px;
+}
+
+q:lang(no){
+    quotes: "*" "*";
+    color: blueviolet;
+    font-size: 25px;
+}
+
+.mark-t li::marker{
+    padding: 10px;
+    color:blueviolet;
+    font-size: 30px;
+}
+
 .person-name{
     margin-left: 15px;
-    padding: 30px 20px;
+    padding: 10px 20px;
     font-size: 1.3rem;
 }
 
@@ -38,7 +74,7 @@ p::first-line{
 .mainButton{
     color: azure;
     border: none;
-    padding: 12px 24px;
+    padding: 20px 24px;
     background-color: blueviolet;
     border-radius: 12px;
     transition: .4s;
@@ -52,16 +88,17 @@ p::first-line{
 
 .person-input{
     border: 5px;
-    border-color: rgb(255, 241, 223);
-    background-color: rgb(255, 241, 223);
+    border-color: rgb(197, 163, 230);
+    background-color: rgb(210, 197, 223);
     border-radius: 5px;
-    padding: 10px 16px;
+    padding: 12px 16px;
     width: 180px;
+    height: 20px;
 }
 
 .person-input:hover{
     margin-left: 18px;
-    border:3px;
+    border:1px;
     border-style: solid;
     border-color: blueviolet;
     transition: .8s;
@@ -70,17 +107,25 @@ p::first-line{
 
 .person-input:focus{
     margin-left: 18px;
-    border:3px;
+    border:1px;
     border-style: solid;
     border-color: blueviolet;
     width: 280px;
 }
 
 .person-check{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 25px 30px;
+    width: 18px;
+    height: 18px;
+}
+
+.person-check:checked {
+
     width: 25px;
     height: 25px;
-    font-family: cursive;
+
 }
 
 .image{
