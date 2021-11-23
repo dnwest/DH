@@ -1,0 +1,52 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 32px;
+}
+
+.main-button{
+    color: white;
+    background-color: tomato;
+    border: 0;
+    padding: 24px;
+    font-size: 22px;
+    border-radius: 12px;
+    transition-duration: .4s;
+    transition:.4s ease-in-out;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.main-button:hover{
+    background-color: rgb(243, 163, 149);
+    transform: rotate3d();
+
+}
+
+@keyframes floating{
+    0%{
+        transform: translate(0,-30px);
+    }
+    50%{
+        transform: translate(0,30px)
+    }
+    100%{
+        transform: translate(0,-30px)
+    }
+}
+
+.ghost{
+    display: block;
+    font-size: 200px;
+    text-align: center;
+    animation-name: floating;animation-duration: 1s;
+    animation-iteration-count: infinite;
+   
+}
