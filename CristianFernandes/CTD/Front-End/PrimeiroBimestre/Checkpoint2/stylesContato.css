@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,500,700&family=Roboto:ital@0;1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background-image: url('Assets/asd.jpg');
+  background-position: center;
+  background-position-x: left;
+  background-repeat: no-repeat;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+@keyframes appear{
+  0%{
+      transform: scale(0.1); opacity: 0%;
+  }
+    100%{
+      transform: scale(1); opacity: 100%;
+  }
+}
+
+form {
+  animation-name: appear;
+  animation-duration: 2.3s;
+  background-color: rgba(0, 0, 0, 0.54);
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+form h1, label {
+  color: white;
+}
+
+h2{
+  color: white;
+  margin-bottom: 15px;
+}
+
+form div {
+  margin: 5px;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 50px;
+}
+
+nav>p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: italic;
+  padding-left: 10px;
+  color: white;
+}
+
+nav>div>ul>li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding: 10px;
+  list-style: none;
+  color: white;
+}
+
+.alignflex {
+  display: flex;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.btn {
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.btn-reset {
+  background-color: burlywood;
+  transition: .4s;
+}
+
+.btn-reset:hover {
+  background-color: rgb(224, 212, 195);
+
+}
+
+.btn-submit {
+  background-color: cornflowerblue;
+  transition: .4s;
+}
+
+.btn-submit:hover {
+  background-color: rgb(157, 181, 226);
+
+}
+
+.box {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  border-radius: 6px;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
+
+.box-data {
+  height: 30px;
+  width: auto;
+  border: 0;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.radio {
+  margin-top: 20px;
+  width: 15px;
+  height: 15px;
+  margin-left: 20px;
+}
+
+.radio:checked {
+  width: 20px;
+  height: 20px;
+  transition: .6s;
+}
+
+.font {
+  font-size: 1.4rem;
+}
+
+.animate-box {
+  transition: .6s;
+}
+
+.animate-box:hover {
+  transform: scale(1);
+  margin-left: 1.1rem;
+}
+
+.animate-box:focus {
+  transform: scale(1.05);
+  margin-left: .1rem;
+}
+
+.box-option {
+  margin-top: 10px;
+  font-size: .9rem;
+  width: 150px;
+  height: 30px;
+  border: 0;
+  border-radius: 6px;
+  padding-left: 10px;
+  margin-bottom: 6px;
+}
