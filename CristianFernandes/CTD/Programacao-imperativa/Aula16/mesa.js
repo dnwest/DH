@@ -17,4 +17,4 @@ function fizzBuzz(num1, num2) {
         
     }
 
-    fizzBuzz(2,9);
+    fizzBuzz(3,3);
