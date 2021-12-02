@@ -9,7 +9,7 @@ body{
     color: white;
     background-color: black;
     display: grid;
-    grid-template-columns: 1200px 1fr;
+    grid-template-columns: 950px 1fr;
     grid-template-areas:
     'main-header main-header'
     'main-aside  main-content'
@@ -70,6 +70,7 @@ section{
 
 .videos img{
     width: 200px;
+    max-height: 140px;
     object-fit: cover;
     transition: .5s ease-in-out;
 }
@@ -79,4 +80,42 @@ section{
     cursor: pointer;
 }
 
- 
+@media  (max-width: 1024px) {
+    body {
+        color: white;
+        background-color: black;
+        display: grid;
+        grid-template-columns: 800px 1fr;
+        grid-template-areas:
+        'main-header main-header'
+        'main-aside  main-content'
+        'main-footer main-footer'
+        ;
+    }}
+
+@media  (max-width: 900px) {
+    body {
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    'main-header'
+    'main-aside'
+    'main-content'
+    ;
+  }
+  section{
+    align-content: center;
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.videos img{
+    width: 300px;
+    object-fit: cover;
+    transition: .5s ease-in-out;
+}
+}
