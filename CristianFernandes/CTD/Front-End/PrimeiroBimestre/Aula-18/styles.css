@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none; 
+}
+
+header{
+    top: 0;
+    position: sticky;
+    background-color: silver;
+    padding: 15px;
+}
+
+
+
+.banner{
+    background-image:url("https://wallpaperwaifu.com/wp-content/uploads/2019/10/itachi-uchiha-sharingan-thumb-1500x844.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.quem-somos{
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/901f1ae5-a6fe-48cb-a9df-7fb74b219983/dea20ec-9b059bd5-6131-43ec-869a-a3426b4a24dc.png/v1/fill/w_1280,h_720,q_80,strp/itachi_uchiha__wallpaper__by_flavio_ruru_dea20ec-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvOTAxZjFhZTUtYTZmZS00OGNiLWE5ZGYtN2ZiNzRiMjE5OTgzXC9kZWEyMGVjLTliMDU5YmQ1LTYxMzEtNDNlYy04NjlhLWEzNDI2YjRhMjRkYy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LFD4CcuGf1VjI6SrgbE-aPzMOXC7xl0FIRDp3RcoFVQ);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -600px;
+    background-color: #75768A;
+    height: 100vh;
+}
+
+.contato{
+    background-image: url(https://wallpaperaccess.com/full/152514.jpg);
+    height: 100vh;
+}
+
+.menubar ul{
+    display: flex;
+    list-style: none;
+    gap:25px;
+   
+}
