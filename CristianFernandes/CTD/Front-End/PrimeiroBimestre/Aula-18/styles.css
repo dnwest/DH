@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-size: 18px;
 }
 
 a{
@@ -18,6 +21,7 @@ header{
     position: sticky;
     background-color: silver;
     padding: 15px;
+    z-index: 100;
 }
 
 
@@ -37,6 +41,32 @@ header{
     background-position-x: -600px;
     background-color: #75768A;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-qs{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 5rem;
+    color: azure;
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+    margin: 150px 300px;
+    width: 100%;
+}
+
+.align-text{
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+    /* padding: 30px; */
+}
+
+.historia{
+    font-size: 1.4rem;
+    width: 100%;
+    margin:100px 180px;
+    text-align: justify;
+    text-shadow: 0.1em 0.1em 0.2em rgb(66, 66, 66);
 }
 
 .contato{
