@@ -15,4 +15,5 @@ const contador = function (qtd) {
     return cont.length;
 };
 
+
 console.log('A maior altura é ' + maiorAlt + '\n' + 'E a menor altura é ' + menorAlt + '\n' + 'A quanditade de homens é de: ' + contador(data));
