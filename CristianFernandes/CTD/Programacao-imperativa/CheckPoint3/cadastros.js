@@ -1,43 +1,12 @@
-const cadastro = [
-    {
-        "nome": "Arthur Campolina",
-        "qtdFaltas": 1,
-        "notas": [10, 8, 6, 8]
-    },
-    {
-        "nome": "Cristian Fernandes",
-        "qtdFaltas": 1,
-        "notas": [10, 8, 6, 8]
-    },
-    {
-        "nome": "Felipe Santos",
-        "qtdFaltas": 1,
-        "notas": [10, 8, 6, 8]
-    },
-    {
-        "nome": "Kened Silva",
-        "qtdFaltas": 1,
-        "notas": [10, 8, 6, 8]
-    },
-    {
-        "nome": "Rodrigo Costa Valle",
-        "qtdFaltas": 1,
-        "notas": [10, 8, 6, 8]
-    },
-    {
-        "nome": "Thiago Silva",
-        "qtdFaltas": 1,
-        "notas": [10, 8, 6, 8]
-    },
-]
+const aluno = require("./aluno")
 
-module.exports = cadastro;
+const estudantes = [
+    new aluno('Arthur Campolina', 2, [7, 9, 8]),
+    new aluno('Cristian Fernandes', 0, [6,9,9]),
+    new aluno('Felipe Santos ', 0, [10,6,8]),
+    new aluno('Kened Silva', 1, [9,6,8]),
+    new aluno('Rodrigo Costa Valle', 3, [10,7,7]),
+    new aluno('Thiago', 2, [10,6,8])
+];
 
-/* const students = [
-    new Student('Arthur Campolina', 0, [10, 8, 6, 8]),
-    new Student('Cristian Fernandes', 0, [10, 8, 6, 8]),
-    new Student('Felipe Santos ', 0, [10, 8, 6, 8]),
-    new Student('Kened Silva', 0, [10, 8, 6, 8]),
-    new Student('Rodrigo Costa Valle', 0, [10, 8, 6, 8]),
-    new Student('Thiago', 0, [10, 8, 6, 8]),
-]; */
+module.exports = estudantes;
