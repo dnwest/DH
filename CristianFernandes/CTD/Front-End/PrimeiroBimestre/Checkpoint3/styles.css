@@ -1,1 +1,65 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color: whitesmoke;
+    height: 2000px;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 18px;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    background-color: whitesmoke;
+    z-index: 100;
+    
+}
+
+.flex-wrap{
+   margin-top: 0;
+    
+}
+
+.nav{
+    padding: 8px;
+    
+}
+
+.nav a{
+    color: #6c757d;
+    border-radius: 4px;
+    transition: .5s ease-in-out;
+}
+.nav a:hover{
+    border:0;
+    border-radius: 4px;
+    color:darkslategray;
+}
+
+.parallaxBanner {
+    background-image: url("https://cdn.awsli.com.br/1000x1000/701/701620/produto/28979285/0532555bb3.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.buttonCadastro{
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    background-color: rgba(37,50,58,0.5);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 115px;
+}
