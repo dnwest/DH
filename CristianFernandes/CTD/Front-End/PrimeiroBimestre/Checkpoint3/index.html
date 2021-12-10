@@ -9,35 +9,43 @@
     <title>P2P - IPTV</title>
 </head>
 <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-    <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+  <a href="#home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <svg class="bi me-2" width="40" height="32"></svg>
     <span class="fs-4">IPTV P2P</span>
   </a>
 
   <ul class="nav sticky-top">
     <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-    <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Sobre nós</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Itens</a></li>
     <!-- Button trigger modal -->
     <li class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Login</a></li>
   </ul>
 </header>
 <body>
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
+<div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+        <h5 class="fs-4 text-align" id="exampleModalLabel">IPTV P2P</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+        <form action="">
+          <div>
+              <label for="emailUsername">E-mail</label>
+              <input type="email" name="emailUsername" id="emailUsername">
+          </div>
+          <div>
+              <label for="passwordUser">Password</label>
+              <input type="password" name="passwordUser" id="passwordUser">
+          </div>
+
+      </form>
+  </div>
+  <div class="modal-footer">
+      <button type="button" class="btn btn-primary">Entrar</button>
       </div>
     </div>
   </div>
@@ -47,7 +55,7 @@
 
 
   
-    <section class="parallaxBanner">
+    <section class="parallaxBanner" id="home">
         <button class="buttonCadastro">Pedir teste 30 dias</button>
     </section>
     

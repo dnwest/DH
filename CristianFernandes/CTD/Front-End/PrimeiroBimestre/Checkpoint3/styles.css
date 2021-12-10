@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 * {
     padding: 0;
     margin: 0;
+    outline: 0;
     box-sizing: border-box;
   }
 body{
@@ -14,37 +16,52 @@ html{
 }
 
 header{
-    width: 100%;
-    position: fixed;
+    top: 0;
+    position: sticky;
     background-color: whitesmoke;
     z-index: 100;
     
 }
 
+.fs-4{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5rem;
+    color:#bbbdbe;
+    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+}
+
+.text-align{
+    width: 100%;
+    text-align: center;
+}
+
 .flex-wrap{
-   margin-top: 0;
+   margin-top: -125px;
     
 }
 
 .nav{
     padding: 8px;
-    
 }
 
 .nav a{
     color: #6c757d;
     border-radius: 4px;
-    transition: .5s ease-in-out;
+    transition: .4s ease-in-out;
+}   
+.nav a:visited{
+    color: #6c757d;
+    border-radius: 4px;
 }
 .nav a:hover{
     border:0;
-    border-radius: 4px;
     color:darkslategray;
+    text-shadow: 0.01em 0.05em rgb(0, 0, 0);
 }
 
 .parallaxBanner {
     background-image: url("https://cdn.awsli.com.br/1000x1000/701/701620/produto/28979285/0532555bb3.jpg");
-    min-height: 100vh;
+    height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
