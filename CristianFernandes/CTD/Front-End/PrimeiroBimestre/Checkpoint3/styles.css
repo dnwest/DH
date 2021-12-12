@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -7,11 +7,11 @@
   }
 body{
     background-color: whitesmoke;
-    height: 2000px;
 }
 
 html{
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
 }
 
@@ -23,16 +23,25 @@ header{
     
 }
 
-.fs-4{
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 5rem;
-    color:#bbbdbe;
-    text-shadow: 0.1em 0.1em rgb(0, 0, 0);
+#itens{
+    margin-top: 10px;
+    padding: 30px;
 }
 
-.text-align{
+.fs-4{
+    background-image: url("https://lirp.cdn-website.com/8981f957/dms3rep/multi/opt/PB-325w.png");
+    background-size: cover;
+    width: 150px;
+    height: 50px;
+}
+
+.logo-login{
+    background-image: url("https://lirp.cdn-website.com/8981f957/dms3rep/multi/opt/PB-325w.png");
+    background-size: 10rem;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
-    text-align: center;
+    height: 60px
 }
 
 .flex-wrap{
@@ -41,7 +50,7 @@ header{
 }
 
 .nav{
-    padding: 8px;
+    padding: 12px;
 }
 
 .nav a{
@@ -63,7 +72,7 @@ header{
     background-image: url("https://cdn.awsli.com.br/1000x1000/701/701620/produto/28979285/0532555bb3.jpg");
     height: 100vh;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -78,5 +87,168 @@ header{
     color: white;
     font-weight: bold;
     font-size: 18px;
-    margin: 115px;
+    margin: 120px;
+}
+.box-itens{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.box-itens, section{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    
+}
+
+.card{
+    gap:15px;
+    height: 450px;
+    border: 0;
+    padding: 0;
+    margin-bottom: 110px;
+}
+
+.card-img-top{
+    border-radius: 12px;
+    width: auto;
+    height: cover;
+}
+
+.card-title, h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: .8rem;
+    line-height: 28px;
+}
+
+.card-text, p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: .7rem;
+    line-height: 21px;
+    text-justify: auto;
+    height: 125px;
+}
+
+.card-body{
+background-color: white;
+position: absolute;
+border-radius: 12px;
+width: cover;
+height: 280px;
+top: 280px;
+filter: drop-shadow(0px 8px 12px rgba(0, 0, 0, 0.1));
+}
+
+.btn-card{
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+.title-itens{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 2.5rem;
+line-height: 75px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: wheat;
+}
+.footer1{
+    font-size: 15px;
+}
+
+.img-aluno1{
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4D03AQH_xMFKZ-fBTQ/profile-displayphoto-shrink_200_200/0/1635371729195?e=1645056000&v=beta&t=hd5KNCOIeY2gnme4CtHY9v9x_U2wyO7bAjqknGIGLiQ");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.img-aluno2{
+    background-image: url("https://media-exp1.licdn.com/dms/image/C4D03AQHFrh088usckg/profile-displayphoto-shrink_200_200/0/1615901223138?e=1645056000&v=beta&t=vPoseQ0URlpAyytrhUk8E4iI4-u7iLB6xVagEqjCY1E");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.img-aluno3{
+    background-image: url("https://avatars.githubusercontent.com/u/62063380?v=4");
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#rodape img{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+}
+.dadosAlunos{
+    display: flex;
+    object-position: center;
+    justify-content:space-around;
+    padding: 15px;  
+}
+.aluno{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+}
+.aluno-rodape{
+    height: fit-content;
+}
+
+.sobre-iptv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    height: 100vh;
+    background-image: url("https://escolaeducacao.com.br/wp-content/uploads/2021/08/iptv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sobre-iptv h1 {
+    margin-top: 180px;
+    padding: 10px;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.sobre-iptv h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    text-align: center;
+    text-justify: auto;
+}
+
+.box-sobre{
+    background-color: rgba(255, 228, 196, 0.527);
+    height: 100%;
+}
+
+footer div h1{
+    font-size: 20px;
+    margin-top: 15px;
 }
