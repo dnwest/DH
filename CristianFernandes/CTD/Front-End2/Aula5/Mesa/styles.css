@@ -44,19 +44,40 @@ h1 {
   margin-bottom: .2em;
 }
 
+.containerButton {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+.btnDark {
+  text-align: center;
+  font-size: 1.2em;
+  border: 0;
+  color: azure;
+  background-color: rgb(46, 46, 46);
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+}
+
 
 /* ------------------------------ Estilos para o tema escuro (Dark-Mode) ----------------------------------------------- */
 
- /* Os seguintes estilos são os que usaremos para aplicar o modo escuro, 
-você terá que modificar os seletores a fim de poder resolver o exercício.  */ 
+/* Os seguintes estilos são os que usaremos para aplicar o modo escuro, 
+você terá que modificar os seletores a fim de poder resolver o exercício.  */
 
 /* A cor de fundo  */
-.dark-mode{
+.dark-mode {
   background-color: rgb(39, 39, 39);
 }
 
 /* Modificações no titulo 'A família dos felinos' */
-.h1Dark{ 
+.h1Dark {
   background-color: rgb(19, 19, 19);
   color: rgb(170, 170, 170);
   border-color: black;
@@ -64,12 +85,24 @@ você terá que modificar os seletores a fim de poder resolver o exercício.  */
 
 
 /* Modificações nos items */
-.itemDark{
+.itemDark {
   background-color: rgb(19, 19, 19);
   border-color: black;
 }
 
 /* Modificações nos textos dos itens e cabeçalhos dos itens */
-.textDark{
+.textDark {
   color: rgb(230, 230, 230);
+}
+
+.btnLight{
+  text-align: center;
+  font-size: 1.2em;
+  border: 0;
+  color: black;
+  background-color: lightgray;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
 }
