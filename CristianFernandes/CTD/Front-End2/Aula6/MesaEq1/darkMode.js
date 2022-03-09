@@ -17,5 +17,5 @@ function dark() {
   
 //Estilização do Botão 
   let btn = document.querySelector('.btnDark');
-  btn.classList.toggle('.btnLight');
+  btn.classList.toggle('btnLight');
 }

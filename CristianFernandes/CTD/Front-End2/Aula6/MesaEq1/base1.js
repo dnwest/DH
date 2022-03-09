@@ -1,6 +1,7 @@
-let listaFelinos = document.createElement(`
-<h1>A família dos felinos</h1>
-<button class="containerButton btnDark" onclick="dark()">Dark Mode</button>
+const parent = document.querySelector(".container")
+console.log(parent);
+//let listaFelinos = document.createElement('div')
+/* listaFelinos.innerHTML = `
 
 <div class="container">
   <div class="item">
@@ -66,4 +67,5 @@ let listaFelinos = document.createElement(`
     </p>
   </div>
 </div>
-`)
+`
+containerGrupo1.appendChild(listaFelinos); */
