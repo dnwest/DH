@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Aula 08</title>
+</head>
+
+<body>
+    <form class="container">
+        <h1>Cadastro de usuários</h1>
+        <label for="username">Nome de usuário</label>
+        <input type="text" name="username" id="username">
+
+        <label for="emailusername">Email</label>
+        <input type="email" name="emailusername" id="emailusername">
+
+        <label for="passwordUser">Senha</label>
+        <input type="password" name="passwordUser" id="passwordUser">
+        <label for="observations">Observações</label>
+        <textarea name="observations" id="observations"></textarea>
+        <label for="city">Cidade</label>
+        <select name="city" id="city">
+            <option value="" disabled selected></option>
+            <option value="1">Monte Alto</option>
+            <option value="2">São Paulo</option>
+            <option value="3">Ribeirão Preto</option>
+        </select>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

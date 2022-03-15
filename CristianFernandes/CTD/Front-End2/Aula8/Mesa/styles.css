@@ -1,0 +1,33 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    width: 100vw;
+}
+
+a {
+    display: none;
+}
+
+input {
+    width: 80%;
+}
+
+.container {
+    border: 0px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    gap: 5px;
+    margin: 10px;
+}
+
