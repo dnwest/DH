@@ -12,7 +12,7 @@
     5. Faça um trecho de código que utilize algum evento de teclado, esse evento irá escrever o conteúdo do input em uma tag <p> e logo abaixo o número de vezes que esse evento foi chamado. Exemplo: <p>futebol</p> <p>7</p>
 </p>
 
-### Menbros do grupo
+### Membros do grupo
 
 <p>
     *Cristian Daniel Fernandes</br>
