@@ -9,9 +9,9 @@
     <title>Aula 08</title>
 </head>
 
-<body>
+<body onload="alertLoaded()">
     <form class="container">
-        <h1>Cadastro de usuários</h1>
+        <h1 id="hover">Cadastro de usuários</h1>
         <label for="username">Nome de usuário</label>
         <input type="text" name="username" id="username">
 
@@ -29,8 +29,10 @@
             <option value="2">São Paulo</option>
             <option value="3">Ribeirão Preto</option>
         </select>
-        <button type="submit">Enviar</button>
+        <button id="enviar" type="submit">Enviar</button>
         <button type="reset">Limpar</button>
+        <p>Aperte alguma tecla de seu teclado!</p>
+        <p id="log"></p>
     </form>
 
     <script src="script.js"></script>
