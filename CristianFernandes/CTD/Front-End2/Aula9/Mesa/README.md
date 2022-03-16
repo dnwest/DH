@@ -52,6 +52,6 @@ Vamos programar uma calculadora simples com o conhecimento que adquirimos até a
     Cristian Daniel Fernandes<br>
     Douglas da Silva Nascimento<br>
     Guilherme Pereira Carmo<br>
-    Matheus Abreu
+    *Matheus Abreu
 </p>
 
