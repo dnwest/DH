@@ -49,9 +49,9 @@ Vamos programar uma calculadora simples com o conhecimento que adquirimos até a
 ### Membros do grupo
 
 <p>
-    Cristian Daniel Fernandes
-    Douglas da Silva Nascimento
-    Guilherme Pereira Carmo
+    Cristian Daniel Fernandes<br>
+    Douglas da Silva Nascimento<br>
+    Guilherme Pereira Carmo<br>
     Matheus Abreu
 </p>
 
