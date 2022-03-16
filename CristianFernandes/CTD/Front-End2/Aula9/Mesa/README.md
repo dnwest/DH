@@ -35,7 +35,6 @@ Vamos programar uma calculadora simples com o conhecimento que adquirimos até a
 
     1. Criar um arquivo calculadora.js no qual serão necessários os quatro arquivos feitos anteriormente.
 
-
     2 . Executar a função que permite adicionar e a função que permite subtrair, passando como argumentos quaisquer dois números. Mostrar os resultados no console.
 
     3. Executar a função que permite a multiplicação, passando como argumentos quaisquer dois números. Mostrar o resultado no console.
