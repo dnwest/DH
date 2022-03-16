@@ -2,11 +2,11 @@
 
 ##  Calculadora
 <p>
-Vamos programar uma calculadora simples com o conhecimento que adquirimos até agora.
-    A calculadora terá 4 funções básicas:
-    Somar
-    Subtrair
-    Multiplicar
+Vamos programar uma calculadora simples com o conhecimento que adquirimos até agora.<br>
+    A calculadora terá 4 funções básicas:<br>
+    Somar<br>
+    Subtrair<br>
+    Multiplicar<br>
     Dividir
 </p>
 
@@ -21,9 +21,7 @@ Vamos programar uma calculadora simples com o conhecimento que adquirimos até a
     3. Criar um arquivo multiplicar.js contendo uma função chamada multiplicar, que deve ser exportada no final do arquivo. Esta função deve receber 2 parâmetros e retornar a multiplicação dos mesmos. Importante::
         a. Contemplar o cenário onde se um dos dois parâmetros for zero, a função retornará zero
     
-    4. Crie um arquivo dividir.js contendo uma função chamada dividir, que deve ser exportada no final do arquivo. Esta função deve receber 
-    
-    2 parâmetros e retornar a divisão dos mesmos. Importante:
+    4. Crie um arquivo dividir.js contendo uma função chamada dividir, que deve ser exportada no final do arquivo. Esta função deve receber 2 parâmetros e retornar a divisão dos mesmos. Importante:
         a. Considere o cenário em que se um dos dois parâmetros for zero, a função retornará "Não se pode dividir por zero".
 
 <p>Para verificar se tudo está bem até agora, recomendamos que você experimente cada uma das funções e teste seu correto funcionamento.
@@ -35,7 +33,7 @@ Vamos programar uma calculadora simples com o conhecimento que adquirimos até a
 
     1. Criar um arquivo calculadora.js no qual serão necessários os quatro arquivos feitos anteriormente.
 
-    2 . Executar a função que permite adicionar e a função que permite subtrair, passando como argumentos quaisquer dois números. Mostrar os resultados no console.
+    2. Executar a função que permite adicionar e a função que permite subtrair, passando como argumentos quaisquer dois números. Mostrar os resultados no console.
 
     3. Executar a função que permite a multiplicação, passando como argumentos quaisquer dois números. Mostrar o resultado no console.
 
