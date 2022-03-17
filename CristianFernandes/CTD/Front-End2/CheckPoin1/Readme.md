@@ -19,7 +19,7 @@
     1. Exemplo de Formulário
 
 <div align="center">
-<img src="./img/1exReadme.jpg" width="700px" />
+<img src="./img/1exReadme.jpg" width="auto" />
 </div>
 
     2. Exemplo de Card
