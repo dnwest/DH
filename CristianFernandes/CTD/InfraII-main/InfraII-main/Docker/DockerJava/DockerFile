@@ -1,0 +1,5 @@
+FROM openjdk:11
+WORKDIR /helloWorld/
+COPY HelloWorld.java /helloWorld/
+RUN ["javac", "HelloWorld.java"]
+ENTRYPOINT ["java", "HelloWorld"]

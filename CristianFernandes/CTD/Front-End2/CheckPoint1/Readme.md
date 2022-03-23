@@ -33,4 +33,6 @@
 #### Membros 
 
 <p>Cristian Daniel Fernandes<br>
-Danielle Alves</p>
+Danielle Alves<br>
+Gabriel Rizzo
+</p>
