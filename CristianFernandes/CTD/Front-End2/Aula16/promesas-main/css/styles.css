@@ -31,9 +31,24 @@ h1{
   width: 50%;
   max-width: 400px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
 }
 
 .img {
+  margin:10px;
   border-radius: 20px;
+  
+}
+
+.textTitle {
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.textMail {
+  font-size: 13px;
 }

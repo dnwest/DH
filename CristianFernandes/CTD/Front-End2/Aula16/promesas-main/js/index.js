@@ -102,8 +102,8 @@ function renderizarDadosUsuario(dados) {
 
     printResult.innerHTML = `
     <img src="${img}" class="img">
-    <h1>${nome} ${sobrenome}</h1>
-    <p>${email}</p>`
+    <h1 class="textTitle">${nome} ${sobrenome}</h1>
+    <p class="textMail">${email}</p>`
 
 
 }
