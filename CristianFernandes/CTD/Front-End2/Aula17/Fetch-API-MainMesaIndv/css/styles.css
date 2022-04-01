@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+    --primary: #7898FF;
+    --secondary: #8E64C5;
+    --app-grey: #F2F2F2;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+background: linear-gradient(110deg, var(--primary), var(--secondary));
+height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  font-size: x-small;
+  margin-bottom: -6px;
+  
+}
+
+.card{
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 200px;
+  width: 50%;
+  max-width: 400px;
+}
+
+.btnContainer{
+  padding: 20px 0;
+  text-align: center;
+}
+.btnContainer button{
+  padding: 5px 15px;
+}
+
+img{
+  border-radius: 28px;
+  width: fit-content;
+  padding: 15px;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  font-size: 1.4em;
+  color: #7898FF;
+  padding-bottom: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mail{
+  padding-top: 5px;
+  color: #8E64C5;
+  font-size: small;
+}
+
+#random {
+  height: 35px;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 5px;
+  background: var(--primary);
+}
